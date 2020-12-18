@@ -1,9 +1,10 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
 	mount: {
-		'public': { url: '/', static: true },
+		'webroot': { url: '/', static: true },
+		'entrypoint-pages': { url: '/', static: true },
+		'entrypoint-scripts': { url: '/' },
 		'src': { url: '/dist' },
-		'public-scripts': { url: '/' },
 	},
 	plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-typescript'],
 	install: [
@@ -23,5 +24,6 @@ module.exports = {
 	},
 	alias: {
 		'@chrome': './src/lib/chrome-services',
+		'@components': './src/components',
 	},
 };

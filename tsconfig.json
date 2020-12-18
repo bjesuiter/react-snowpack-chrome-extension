@@ -15,6 +15,9 @@
             "@chrome/*": [
                 "./src/lib/chrome-services/*"
             ],
+            "@components/*": [
+                "./src/components/*"
+            ],
         },
         /* noEmit - Snowpack builds (emits) files, not tsc. */
         "noEmit": true,

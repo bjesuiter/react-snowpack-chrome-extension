@@ -1,0 +1,18 @@
+.spinning-logo {
+	height: 40vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.spinning-logo {
+		animation: spinning-logo-spin infinite 20s linear;
+	}
+}
+
+@keyframes spinning-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

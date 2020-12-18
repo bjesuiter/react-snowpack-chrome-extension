@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SpinningLogo from '../../components/spinning-logo/SpinningLogo';
 
 function App() {
 	// Create the count state.
@@ -12,14 +12,12 @@ function App() {
 	}, [count, setCount]);
 	// Return the App component.
 	return (
-		<div className="App">
-			<header className="App-header">
-				<p>
-					Page has been open for <code>{count}</code> seconds.
-				</p>
-				<img src={logo} className="App-logo" alt="logo" />
-			</header>
-		</div>
+		<header className="App-header">
+			<p>
+				Page has been open for <code>{count}</code> seconds.
+			</p>
+			<SpinningLogo />
+		</header>
 	);
 }
 
