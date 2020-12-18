@@ -14,7 +14,7 @@ module.exports = {
 		/* ... */
 	},
 	devOptions: {
-		/* ... */
+		fallback: 'options.html',
 	},
 	buildOptions: {
 		metaDir: 'private/snowpack',
