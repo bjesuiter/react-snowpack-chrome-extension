@@ -29,9 +29,11 @@ Your app is ready to be deployed!
 
 **For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
 
-### Q: What about Eject?
+## Test yourself
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+Run `npm run build` and load the content of the `/build` folder as chrome extension.
+Voila!
+Tip: Open the options page for the extension to see the main page
 
 ---
 
