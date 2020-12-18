@@ -81,3 +81,10 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
     to avoid errors with underscores when loading chrome extensions
     (underscores are reserved by the system in chrome)
 13. Configure `npm i -D del-cli` to clean /build folder before each build
+14. First success!
+
+Next Tests:
+
+- Typescript imports in background.script.ts
+- Using chrome apis from background.script.ts
+- Importing external react components in the options page
