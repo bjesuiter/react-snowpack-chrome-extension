@@ -70,4 +70,4 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
 7. Add chrome typings: `npm i -D @types/chrome `
 8. Add sample icons in `public/assets/img` for sizes
    icon-16.png, icon-32.png, icon-128.png, icon-256.png, icon-512.png
-9.
+9. Add `public/manifest.json` file (find this file in this repo for example manifest)
