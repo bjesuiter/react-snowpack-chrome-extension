@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import logo from './logo.svg';
-import './SpinningLogo.css';
+import './spinning-logo.css';
 
 function SpinningLogo() {
 	return <img src={logo} className="spinning-logo" alt="logo" />;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
-import SpinningLogo from '../../components/spinning-logo/SpinningLogo';
+import './app.css';
+import SpinningLogo from '../../components/spinning-logo/spinning-logo';
 
 function App() {
 	// Create the count state.
