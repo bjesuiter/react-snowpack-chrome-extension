@@ -2,3 +2,12 @@
 chrome.runtime.onInstalled.addListener(async function () {
 	console.log('Extension installed successfully');
 });
+
+chrome.browserAction.onClicked.addListener(
+	/**
+	 * @param currentTab see https://developer.chrome.com/extensions/tabs#type-Tab
+	 */
+	async (currentTab) => {
+		chrome.tabs.create({ url: `chrome-extension://${chrome.runtime.id}/index.html` });
+	}
+);
