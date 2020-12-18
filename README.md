@@ -38,6 +38,7 @@ No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
 
 This section of the readme contains all steps & changes neccessary 
 to get a good setup for a Chrome Extension dev environment.
+It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials/react)
 
 1. Bootstrap Command 
    `npx create-snowpack-app react-snowpack-chrome-extension --template @snowpack/app-template-minimal`
