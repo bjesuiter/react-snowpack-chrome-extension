@@ -66,3 +66,5 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
          '@snowpack/plugin-typescript',
       ],
       ```
+
+7. Add chrome typings: `npm i -D @types/chrome `

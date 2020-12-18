@@ -13,6 +13,7 @@
 	"devDependencies": {
 		"@snowpack/plugin-react-refresh": "^2.3.9",
 		"@snowpack/plugin-typescript": "^1.1.1",
+		"@types/chrome": "0.0.127",
 		"@types/react": "^17.0.0",
 		"@types/react-dom": "^17.0.0",
 		"prettier": "^2.2.1",
