@@ -22,6 +22,6 @@ module.exports = {
 		/* ... */
 	},
 	alias: {
-		/* ... */
+		'@chrome': './src/lib/chrome-services',
 	},
 };
