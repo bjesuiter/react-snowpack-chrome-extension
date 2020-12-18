@@ -1,6 +1,8 @@
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+> Bootstrap Command: 
+> npx create-snowpack-app react-snowpack-chrome-extension --template @snowpack/app-template-minimal
 
 ## Available Scripts
 
