@@ -45,3 +45,5 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
 2. `npm install react react-dom --save`
 3. `mv index.js index.jsx`
 4. Follow along source tutorial, changes will be recorded from here on
+5. Fast Refresh Plugin install:  
+   `npm i -D @snowpack/plugin-react-refresh`
