@@ -1,8 +1,16 @@
-# New Project
+# React Snowpack Chrome Extension
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
-> Bootstrap Command: 
-> npx create-snowpack-app react-snowpack-chrome-extension --template @snowpack/app-template-minimal
+
+This repo is an example on how to write a chrome extension with snowpack and react. 
+It strives for minimum overhead for bundling files into the chrome extension
+so that the developer can focus on it's extension!
+
+Note: This example currently uses Chrome Extension Manifest V2. 
+The typings in @types/chrome are not up-to-date yet (as of 2020-12-18)
+
+For all Steps done to convert this template repo into a working chrome extension, 
+see the end of this README.md.
 
 ## Available Scripts
 
@@ -24,3 +32,13 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+
+-------------------------------
+# Chronic of changes 
+
+This section of the readme contains all steps & changes neccessary 
+to get a good setup for a Chrome Extension dev environment.
+
+1. Bootstrap Command 
+   `npx create-snowpack-app react-snowpack-chrome-extension --template @snowpack/app-template-minimal`
+2. `npm install react react-dom --save`
