@@ -16,7 +16,7 @@ module.exports = {
 		/* ... */
 	},
 	buildOptions: {
-		/* ... */
+		metaDir: 'private/snowpack',
 	},
 	proxy: {
 		/* ... */
