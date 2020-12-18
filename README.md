@@ -43,3 +43,5 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
 1. Bootstrap Command 
    `npx create-snowpack-app react-snowpack-chrome-extension --template @snowpack/app-template-minimal`
 2. `npm install react react-dom --save`
+3. `mv index.js index.jsx`
+4. Follow along source tutorial, changes will be recorded from here on
