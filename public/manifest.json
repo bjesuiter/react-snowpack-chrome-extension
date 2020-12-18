@@ -1,8 +1,8 @@
 {
-	"name": "Session Quicksave",
-	"homepage_url": "https://github.com/bjesuiter/chrome-session-quicksave",
-	"description": "A Chrome extension for demonstrating react, typescript and snowpack to develop a chrome extension",
-	"manifest_version": 3,
+	"name": "React Snowpack Chrome Extension",
+	"homepage_url": "https://github.com/bjesuiter/react-snowpack-chrome-extension",
+	"description": "A Chrome extension for demonstrating a chrome extension build with react, typescript and snowpack",
+	"manifest_version": 2,
 	"version": "0.0.1",
 	"icons": {
 		"16": "assets/img/icon-16.png",
@@ -12,9 +12,10 @@
 		"512": "assets/img/icon-512.png"
 	},
 	"background": {
-		"service_worker": "/background.script.js"
+		"scripts": ["/background.script.js"],
+		"persistent": false
 	},
-	"action": {
+	"browser_action": {
 		"default_icon": {
 			"16": "assets/img/icon-16.png",
 			"32": "assets/img/icon-32.png"
@@ -23,9 +24,10 @@
 	},
 	"options_page": "index.html",
 	"web_accessible_resources": [
-		{
-			"resources": ["assets/icons/*.png", "assets/img/*.png", "assets/error-htmls/illegal-or-missing-url.html"]
-		}
+		"assets/icons/*.png",
+		"assets/img/*.png",
+		"assets/error-htmls/illegal-or-missing-url.html"
 	],
-	"permissions": ["bookmarks", "notifications", "storage", "tabs"]
+	"permissions": ["bookmarks", "notifications", "storage", "tabs"],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
