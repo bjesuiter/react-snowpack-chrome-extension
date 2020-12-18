@@ -51,9 +51,10 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
 6. Convert this repo to typescript based on the repo:
    [app-template-react-typescript](https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/app-template-react-typescript)
 
-   1. Install Typescript & Snowpack TS Plugin
+   1. Install Typescript & Snowpack TS Plugin & Additional Types
       ```sh
       npm i -D @snowpack/plugin-typescript typescript
+      npm i -D @types/react @types/react-dom
       ```
    2. Update `snowpack.config.js`
       ```js
