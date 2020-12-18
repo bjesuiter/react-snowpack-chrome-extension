@@ -72,3 +72,6 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
    icon-16.png, icon-32.png, icon-128.png, icon-256.png, icon-512.png
 9. Add `public/manifest.json` file (find this file in this repo for example manifest)
 10. Solve problems with Hot Module Reloading by installing `npm i -D @types/snowpack-env`
+11. Move `src/background.script.ts` to `public-scripts/background.script.ts` and add `public-scripts`
+    folder to snowpack config to be emitted to '/', to have the background chrome script in the webroot
+    of the chrome extension.
