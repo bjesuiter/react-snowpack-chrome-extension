@@ -78,3 +78,4 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
 12. rename **snowpack** folder in snowpack.config: buildOptions.metaDir to `private/snowpack`
     to avoid errors with underscores when loading chrome extensions
     (underscores are reserved by the system in chrome)
+13. Configure `npm i -D del-cli` to clean /build folder before each build
