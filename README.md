@@ -75,3 +75,6 @@ It is based on this [Snowpack React Tutorial](https://www.snowpack.dev/tutorials
 11. Move `src/background.script.ts` to `public-scripts/background.script.ts` and add `public-scripts`
     folder to snowpack config to be emitted to '/', to have the background chrome script in the webroot
     of the chrome extension.
+12. rename **snowpack** folder in snowpack.config: buildOptions.metaDir to `private/snowpack`
+    to avoid errors with underscores when loading chrome extensions
+    (underscores are reserved by the system in chrome)
