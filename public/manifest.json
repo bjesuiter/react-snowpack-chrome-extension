@@ -1,0 +1,31 @@
+{
+	"name": "Session Quicksave",
+	"homepage_url": "https://github.com/bjesuiter/chrome-session-quicksave",
+	"description": "A Chrome extension for demonstrating react, typescript and snowpack to develop a chrome extension",
+	"manifest_version": 3,
+	"version": "0.0.1",
+	"icons": {
+		"16": "assets/img/icon-16.png",
+		"32": "assets/img/icon-32.png",
+		"128": "assets/img/icon-128.png",
+		"256": "assets/img/icon-256.png",
+		"512": "assets/img/icon-512.png"
+	},
+	"background": {
+		"service_worker": "/background.script.js"
+	},
+	"action": {
+		"default_icon": {
+			"16": "assets/img/icon-16.png",
+			"32": "assets/img/icon-32.png"
+		},
+		"default_title": "React Snowpack Chrome Extension"
+	},
+	"options_page": "index.html",
+	"web_accessible_resources": [
+		{
+			"resources": ["assets/icons/*.png", "assets/img/*.png", "assets/error-htmls/illegal-or-missing-url.html"]
+		}
+	],
+	"permissions": ["bookmarks", "notifications", "storage", "tabs"]
+}
