@@ -1,4 +1,7 @@
 {
+  "repository": "https://github.com/bjesuiter/react-snowpack-chrome-extension",
+  "license": "MIT",
+  "author": "Benjamin Jesuiter <bjesuiter@gmail.com>",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
