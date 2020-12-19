@@ -8,7 +8,7 @@
 	"scripts": {
 		"start": "snowpack dev",
 		"build": "snowpack build",
-		"build:watch": "chokidar \"src/*\" -c \"npm run build\"",
+		"build:watch": "chokidar \"src/*\"  \"entry-pages/*\"  \"entry-scripts/*\" \"webroot/*\" -c \"npm run build\"",
 		"build:clean": "snowpack build --clean",
 		"test": "echo \"This template does not include a test runner by default.\" && exit 1"
 	},
