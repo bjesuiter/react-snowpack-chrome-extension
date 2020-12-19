@@ -12,8 +12,7 @@
 		"512": "assets/img/icon-512.png"
 	},
 	"background": {
-		"scripts": ["/background.script.js"],
-		"persistent": false
+		"page": "background.html"
 	},
 	"browser_action": {
 		"default_icon": {
