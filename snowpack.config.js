@@ -2,8 +2,8 @@
 module.exports = {
 	mount: {
 		'webroot': { url: '/', static: true },
-		'entrypoint-pages': { url: '/', static: true },
-		'entrypoint-scripts': { url: '/' },
+		'entry-pages': { url: '/', static: true },
+		'entry-scripts': { url: '/' },
 		'src': { url: '/dist' },
 	},
 	plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-typescript'],
