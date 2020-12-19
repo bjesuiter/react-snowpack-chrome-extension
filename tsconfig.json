@@ -2,7 +2,7 @@
     "include": [
         "src",
         "types",
-        "src-chrome/background.script.ts"
+        "entry-scripts"
     ],
     "compilerOptions": {
         "module": "esnext",
@@ -13,10 +13,10 @@
         /* paths - If you configure Snowpack import aliases, add them here. */
         "paths": {
             "@chrome/*": [
-                "./src/lib/chrome-services/*"
+                "src/lib/chrome-services/*"
             ],
             "@components/*": [
-                "./src/components/*"
+                "src/components/*"
             ],
         },
         /* noEmit - Snowpack builds (emits) files, not tsc. */
